@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    div{
+        padding: 10%;
+        background-color: lightcyan;
+        text-align: center;
+        font-family: sans-serif;
+    }
+    form{
+        background-color: white;
+        align-content: center;
+        padding: 5px;
+        margin: 0 25%;
+    }
+    h2{
+        background-color: orangered;
+        padding: 1% 0;
+        margin: 0;
+        color: white;
+    }
+    #tb1{
+        align-content: center;
+        width: 100%;
+    }
+    .col1{
+        margin: 0;
+        height: 100%;
+        color: mediumblue;
+        text-align: right;
+        font-family: sans-serif;
+    }
+    .col2{
+        text-align: left;
+    }
+    .checkbox{
+        color: orangered;
+    }
+</style>
+<body>
+<div>
+    <form>
+        <h2>SỞ THÍCH CỦA BẠN</h2>
+        <table id="tb1">
+            <tr>
+                <td>
+                    <p class="col1">Họ và tên</p>
+                </td>
+                <td class="col2">
+                    <input id="yourname" type="text" name="yourname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p class="col1">Email</p>
+                </td>
+                <td class="col2">
+                    <input type="text" name="email">
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 0 12% 0">
+                    <p class="col1">Sở thích</p>
+                </td>
+                <td>
+                    <table style="text-align: justify">
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Thể thao</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Âm nhạc</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Đọc sách</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Lướt web</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Chơi game</label>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Điện ảnh</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="hobby">
+                                <label class="checkbox">Du lịch</label>
+                            </td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: left">
+                    <input type="submit" value="Gửi thông tin">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>

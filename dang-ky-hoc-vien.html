@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    h2{
+        background-color: lightskyblue;
+        color: blue;
+        padding: 5px;
+    }
+    td{
+        padding: 5px 5px;
+        color: black;
+    }
+    div{
+        background-color: khaki;
+        margin: 5px;
+    }
+    .labelCl{
+        color: mediumblue;
+    }
+</style>
+<body>
+<div>
+    <form>
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <table>
+            <tr>
+                <td class="labelCl">Họ và tên</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="labelCl">Ngày sinh</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="labelCl">Giới tính</td>
+                <td>
+                    <input type="radio" id="male" name="gender_male" >
+                    <label for="male">Nam</label>
+                    <input type="radio" id="female" name="gender_female" value="Test">
+                    <label for="female">Nữ</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="labelCl">Địa chỉ</td>
+                <td>
+                    <input type="text">
+                </td>
+            </tr>
+            <tr>
+                <td class="labelCl">Lớp</td>
+                <td>
+                    <select>
+                        <option>- Chọn lớp -</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td class="labelCl">Email</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="labelCl">Điện thoại</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td class="labelCl"></td>
+                <td>
+                    <input type="submit" name="register" value="Đăng ký">
+                    <input type="reset" value="Nhập lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
